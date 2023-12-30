@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/signup.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="head">
+      <div class="container m-0">
+        <header class="text-center fw-bold">Smart Login System</header>
+        <div class="form-login d-flex align-items-center justify-content-center pt-5">
+          <form action="" class="w-100 d-flex flex-column">
+            <input class="field mb-3 form-control text-light" type="text" name="name" id="name" placeholder="Enter Your name">
+            <div class="alert alert-info alert-dismissible fade show d-none" role="alert">
+              <strong>Plz Enter The First Leter Capital</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <input class="field mb-3 form-control text-light" type="email" name="mail" id="mail" placeholder="Enter Your Email" />
+            <div class="alert alert-email alert-info alert-dismissible fade show d-none" role="alert">
+              <strong>Write Your Email Correct</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <input class="field mb-3 form-control text-light" type="password" name="password" id="password" placeholder="Enter Your password" />
+            <div class="alert alert-password alert-info alert-dismissible fade show d-none" role="alert">
+              <strong>Password must contain the following</strong>
+              <p class="mb-0">A <b>lowercase</b> letter</p>
+              <p class="mb-0">A <b>capital (uppercase)</b> letter</p>
+              <p class="mb-0">A <b>number</b></p>
+              <p class="mb-0">Minimum <b>8 characters</b></p>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <input id="submit" class="mb-3 btn btn-outline-primary text-uppercase fs-5 fw-bold" type="submit" value="Sign Up" />
+          </form>
+        </div>
+        <p id = "sign-in" class="text-center signin">You have an account?<button class="text-capitalize">signin</button></p>
+  
+      </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
